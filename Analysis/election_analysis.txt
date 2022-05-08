@@ -1,0 +1,22 @@
+# Create a filename variable to a direct or indirect path to the file 
+file_to_save = os.path.join("analysis", "election_analysis.txt")
+
+# Use the open statement to open the file as a text file.
+outfile = open(file_to_save, "w")
+
+# Write some data to the file.
+#outfile.write("Hello World")
+with open(file_to_save, "w") as txt_file:
+
+    # Write some data to the file.
+    txt_file.write("Hello World")
+
+     # Write three counties to the file.
+     #txt_file.write("Arapahoe")
+     #txt_file.write("Denver")
+     #txt_file.write("Jefferson") or  txt_file.write("Arapahoe\nDenver\nJefferson") so that it can be on new lines
+     txt_file.write("Arapahoe, Denver, Jefferson")
+
+
+# Close the file
+outfile.close()
