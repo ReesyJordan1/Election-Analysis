@@ -1,17 +1,17 @@
 # **Election-Analysis**
 
 ## **Project Overview** 
-An election audit for the Colorado Board of Elections. 
+##### An election audit for the Colorado Board of Elections. 
 
 ## **Resources**
-Data Source: Election_results.csv
+##### Data Source: Election_results.csv
 
 ## **Summary** 
 
 ### **County Results** 
 The analysis of the results of the local congressional election shows that there were 369,711 total votes.
 
-##### ##### Below is a breakdown of the total votes per each county in Colorado. 
+##### Below is a breakdown of the total votes per each county in Colorado. 
 - ##### Jefferson: 10.5% (38,855)
 - ##### Denver: 82.8% (306,055)
 - ##### Arapahoe: 6.7% (24,801)
