@@ -1,22 +1,13 @@
-# Create a filename variable to a direct or indirect path to the file 
-file_to_save = os.path.join("analysis", "election_analysis.txt")
 
-# Use the open statement to open the file as a text file.
-outfile = open(file_to_save, "w")
-
-# Write some data to the file.
-#outfile.write("Hello World")
-with open(file_to_save, "w") as txt_file:
-
-    # Write some data to the file.
-    txt_file.write("Hello World")
-
-     # Write three counties to the file.
-     #txt_file.write("Arapahoe")
-     #txt_file.write("Denver")
-     #txt_file.write("Jefferson") or  txt_file.write("Arapahoe\nDenver\nJefferson") so that it can be on new lines
-     #txt_file.write("Arapahoe, Denver, Jefferson")
-     txt_file.write("Arapahoe\nDenver\nJefferson")
-
-# Close the file
-outfile.close()
+Election Results
+-------------------------
+Total Votes: 369,711
+-------------------------
+Charles Casper Stockham: 23.0% (85,213)
+Diana DeGette: 73.8% (272,892)
+Raymon Anthony Doane: 3.1% (11,606)
+-------------------------
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+-------------------------
