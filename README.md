@@ -29,8 +29,5 @@ The analysis of the results of the local congressional election shows that there
 
 ![alt text](
 -------------------------
-Jefferson: 10.5% (38,855)
-Denver: 82.8% (306,055)
-Arapahoe: 6.7% (24,801)
 
 
